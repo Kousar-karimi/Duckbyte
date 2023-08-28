@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Kalameh-Black;
+    src: url(../font/Kalameh/01-\ Standard\ Fonts/TTF/Kalameh-Black.ttf);
+}
+@font-face {
+    font-family: Kalameh-Bold;
+    src: url(../font/Kalameh/01-\ Standard\ Fonts/TTF/Kalameh-Bold.ttf);
+}
+@font-face {
+    font-family: Kalameh-Light;
+    src: url(../font/Kalameh/01-\ Standard\ Fonts/TTF/Kalameh-Light.ttf);
+}
+@font-face {
+    font-family: Kalameh-Regular;
+    src: url(../font/Kalameh/01-\ Standard\ Fonts/TTF/Kalameh-Regular.ttf);
+}
+@font-face {
+    font-family: Kalameh-Medium;
+    src: url(../font/Kalameh/01-\ Standard\ Fonts/TTF/Kalameh-Medium.ttf);
+}
+.type-font-bold{
+    font-family: Kalameh-Bold;
+}
+.type-font-black{
+    font-family: Kalameh-Black;
+}
+.type-font-light{
+    font-family:  Kalameh-Light;
+}
+.type-font-regular{
+    font-family: Kalameh-Regular;
+}
+.type-font-medium{
+    font-family: Kalameh-Medium;
+}
+@media (min-width: 672px) and (max-width: 1007px) {
+    .responsive-width{
+        width: 40%;
+    }
+    .responsive-width-100{
+        width: 90%;
+    }
+}  
+.background-yello{
+    background-image: radial-gradient(#e9d262, rgb(233, 227, 137),snow, #ffff);
+}
+.background-blue{
+    background-image: radial-gradient(#4AA9A8, #92c4c3,snow, #ffff);
+}
+.background-perpele{
+    background-image: radial-gradient(#D876EE, #d4a7de,#e0cde4,snow, #ffff);
+}
+.background-pink{
+    background-image: radial-gradient(#CF97AA, #e8afc1,#ebc0ce,snow, #ffff);
+}
+@media(min-width:993px){
+    .replace-img{
+        order: 1;
+    }
+}
+@media(max-width:594px){
+    .icon-footer{
+        padding-left: 20px;
+    }
+    .img-footer{
+        width: 290px;
+    }
+}
+@media(max-width:474px){
+    .icon-footer{
+        padding-left: 4px;
+    }
+    .img-footer{
+        width: 270px;
+    }
+}
+@media(max-width:398px){
+    .icon-footer{
+        padding-left: 0px;
+    }
+    .img-footer{
+        width: 230px;
+    }
+}
